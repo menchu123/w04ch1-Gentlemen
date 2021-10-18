@@ -1,7 +1,7 @@
 import "./Card.css";
 import fary from "../../img/fary.jpg";
 
-function Card() {
+function Card({ gentleman }) {
   return (
     <li className="gentleman">
       <div className="gentleman__avatar-container">
