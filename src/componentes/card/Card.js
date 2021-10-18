@@ -1,5 +1,4 @@
 import "./Card.css";
-import fary from "../../img/fary.jpg";
 
 function Card({ gentleman }) {
   return (
@@ -7,7 +6,7 @@ function Card({ gentleman }) {
       <div className="gentleman__avatar-container">
         <img
           className="gentleman__avatar"
-          src={fary}
+          src={`../../img/${gentleman.picture}`}
           alt={gentleman.alternativeText}
         />
         <span className="gentleman__initial">F</span>
