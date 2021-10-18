@@ -1,5 +1,6 @@
 import "./App.css";
-import Button from "./componentes/info/button/Button.js";
+import Button from "./componentes/button/Button.js";
+import Card from "./componentes/card/Card.js";
 import Info from "./componentes/info/Info.js";
 
 function App() {
@@ -12,7 +13,11 @@ function App() {
         <Info />
         <Button />
       </section>
-      <main className="main"></main>
+      <main className="main">
+        <ul className="gentlemen">
+          <Card />
+        </ul>
+      </main>
     </div>
   );
 }
