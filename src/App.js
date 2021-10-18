@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./componentes/button/Button.js";
 import Card from "./componentes/card/Card.js";
 import Info from "./componentes/info/Info.js";
+import gentlemen from "./data.js";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       </section>
       <main className="main">
         <ul className="gentlemen">
-          <Card />
+          {gentlemen.map((gentleman) => (
+            <Card key={gentleman.id} gentleman={gentleman} />
+          ))}
         </ul>
       </main>
     </div>
