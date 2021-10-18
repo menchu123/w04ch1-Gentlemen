@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./componentes/info/button/Button.js";
 import Info from "./componentes/info/Info.js";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       </header>
       <section className="controls">
         <Info />
+        <Button />
       </section>
       <main className="main"></main>
     </div>
