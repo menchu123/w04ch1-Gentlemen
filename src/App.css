@@ -33,6 +33,12 @@ body {
   font-weight: 500;
 }
 
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1,
 h2 {
   margin: 0;
