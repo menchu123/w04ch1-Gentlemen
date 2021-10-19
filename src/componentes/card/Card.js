@@ -9,7 +9,7 @@ function Card({ gentleman }) {
           src={`../../img/${gentleman.picture}`}
           alt={gentleman.alternativeText}
         />
-        <span className="gentleman__initial">F</span>
+        <span className="gentleman__initial">{gentleman.name[0]}</span>
       </div>
       <div className="gentleman__data-container">
         <h2 className="gentleman__name">{gentleman.name}</h2>
